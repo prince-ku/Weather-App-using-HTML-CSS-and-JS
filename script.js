@@ -14,8 +14,9 @@ const getWeather = (city) => {
       console.log(response)
       // cloud_pct.innerHTML = response.cloud_pct
       feels_like.innerHTML = response.feels_like
+      feels_like2.innerHTML = response.feels_like
       humidity.innerHTML = response.humidity
-      humidity2.innerHTML = response.humidity
+
       max_temp.innerHTML = response.max_temp
       min_temp.innerHTML = response.min_temp
       sunrise.innerHTML = response.sunrise
