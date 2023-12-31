@@ -168,9 +168,9 @@ body {
     }
 
     .card-area .col1 {
-        width: 90%;
+        width: 100%;
         text-align: center;
-        padding-left: 32px;
+        padding-left: 0px;
         height: 400px;
     }
 
@@ -179,9 +179,9 @@ body {
     }
 
     .card-area .col2 {
-        width: 90%;
+        width: 100%;
         text-align: center;
-        padding-left: 32px;
+        padding-left: 0px;
         height: 400px;
         margin-top: 30px;
     }
@@ -191,12 +191,12 @@ body {
     }
 
     .card-area .col3 {
-        width: 90%;
+        width: 100%;
         text-align: center;
-        padding-left: 32px;
+        padding-left: 0px;
         height: 400px;
         margin-top: 30px;
-        margin-bottom: 1100px;
+        margin-bottom: 150px;
     }
 
     .col3 ul {
@@ -207,19 +207,20 @@ body {
 @media (width <=320px) {
     .card-area .col1 {
 
-        padding-left: 37px;
+        padding-left: 0px;
 
     }
 
     .card-area .col2 {
 
-        padding-left: 37px;
+        padding-left: 0px;
+
 
     }
 
     .card-area .col3 {
+        padding-left: 0px;
 
-        padding-left: 37px;
 
     }
 
@@ -247,3 +248,169 @@ body {
         font-size: 30px;
     }
 }
+
+@media (width<=426px) {
+
+    .container .card-area {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .card-area .col1 {
+        width: 100%;
+        /* text-align: center; */
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 400px;
+    }
+
+    .col1 ul {
+        padding-top: 60px;
+    }
+
+    .card-area .col2 {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .col2 ul {
+        padding-top: 60px;
+    }
+
+    .card-area .col3 {
+        width: 100%;
+        text-align: center;
+        /* padding-left: 30px;
+        padding-right: 30px; */
+        height: 400px;
+        margin-top: 30px;
+        margin-bottom: 150px;
+    }
+
+    .col3 ul {
+        padding-top: 60px;
+    }
+
+    .col1 h1 {
+        font-size: 50px;
+    }
+
+    .col2 h1 {
+        font-size: 50px;
+    }
+
+    .col3 h1 {
+        font-size: 30px;
+    }
+
+    .col1 h4 {
+        font-size: 30px;
+    }
+
+    .col2 h4 {
+        font-size: 30px;
+    }
+
+    .col3 h4 {
+        font-size: 30px;
+    }
+}
+
+@media (width<=768) {
+    .container .card-area {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .card-area .col1 {
+        width: 100%;
+
+    }
+
+    .col1 ul {
+        padding-top: 60px;
+    }
+
+    .card-area .col2 {
+        width: 100%;
+
+    }
+
+    .col2 ul {
+        padding-top: 60px;
+    }
+
+    .card-area .col3 {
+        width: 100%;
+
+    }
+
+    .col3 ul {
+        padding-top: 60px;
+    }
+
+    .col1 h1 {
+        font-size: 50px;
+    }
+
+    .col2 h1 {
+        font-size: 50px;
+    }
+
+    .col3 h1 {
+        font-size: 30px;
+    }
+
+    .col1 h4 {
+        font-size: 30px;
+    }
+
+    .col2 h4 {
+        font-size: 30px;
+    }
+
+    .col3 h4 {
+        font-size: 30px;
+    }
+}
+
+/* 
+@media (width<=800px) {
+
+    .container .card-area {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .col1 h1 {
+        font-size: 50px;
+    }
+
+    .col2 h1 {
+        font-size: 50px;
+    }
+
+    .col3 h1 {
+        font-size: 30px;
+    }
+
+    .col1 h4 {
+        font-size: 30px;
+    }
+
+    .col2 h4 {
+        font-size: 30px;
+    }
+
+    .col3 h4 {
+        font-size: 30px;
+    }
+} */
